@@ -1,3 +1,3 @@
-# Angular-6-Web-Application-
+# Angular-6-Web-Application
 This is web application demo using Angular 6
 # Components
