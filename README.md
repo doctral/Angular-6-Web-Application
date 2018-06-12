@@ -1,6 +1,12 @@
-# Angular6DemoPostApp
+# Angular6 Demo App (Under Developing)
+This project is to build a web application that allows user to share their stories behind the pictures using Angular 6.   
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Important Tutorials  
+1. [Lazy Loading in Angular 2+](https://alligator.io/angular/lazy-loading/)   
+
+## Dependency Installation 
+Bootstrap@4 & jquery:  npm install --save bootstrap jquery  
+
 
 ## Development server
 
