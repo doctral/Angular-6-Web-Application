@@ -1,27 +1,17 @@
-# MyFirstApp
+# Angular 6 Demo
+This is a demo project using Angular 6. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+## Advance Topic in Angular 6
 
-## Development server
+### 1. Packages Configuration    
+1. To use full functionalities in Bootstrap, we need to configure JQuery in Angular.  
+    Install bootstrap and jquery: npm install --save bootstrap jquery  
+    Add bootstrap to styles, and then add jquery.min.js & bootstrap.min.js to scripts (order matters)  
+    [A good post regarding jquery configuration in Angular](https://medium.com/@swarnakishore/how-to-include-and-use-jquery-in-angular-cli-project-592e0fe63176)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### 2. Angular Module Loading
+1. [Lazy Loading a feature Module/Component using LoadChildren](https://angular-2-training-book.rangle.io/handout/modules/lazy-loading-module.html)  
 
-## Code scaffolding
+2. [Eager Loading, Lazy Loading, and Preloading in Angular](https://www.concretepage.com/angular-2/angular-module-loading-eager-lazy-and-preloading)  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
